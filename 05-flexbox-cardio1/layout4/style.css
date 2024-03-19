@@ -18,5 +18,37 @@ nav {
 /* -------------------------------------------- */
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
-
-
+.celek{
+	display: flex;
+	height: 100vh;
+}
+.zbytek{
+	display: flex;
+	flex-direction: column;
+/*	width: 100vw;*/
+	flex-grow: 8;
+}
+.obsah{
+	display: flex;
+	flex-grow: 5;
+}
+aside{
+	display: flex;
+}
+footer{
+	/*width: 80vw;*/
+}
+header,footer{
+	flex-grow: 1
+	;
+}
+article{
+	/*width: 80vw;*/
+	flex-grow: 3;
+}
+aside{
+	flex-grow: 1;
+}
+nav{
+	flex-grow: 1;
+}

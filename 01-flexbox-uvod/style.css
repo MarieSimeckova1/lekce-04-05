@@ -21,3 +21,33 @@
 
 /* ---------------------------------------------------- */
 
+.kontejner{
+    display: flex;
+}
+.prvni{
+    flex-grow: 1;
+}
+.druhy{
+    flex-grow: 2;
+}
+/*.treti{
+    flex-shrink: 1;
+}*/
+.ctvrty{
+    flex-basis: 25%;
+}
+.ctverecek{
+    flex-basis:25% ;
+}
+.prvni{
+    order: 2;
+}
+.druhy{
+    order: 1;
+}
+.treti{
+    order:3;
+}
+.ctvrty{
+    order:4;
+}
